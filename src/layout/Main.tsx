@@ -19,8 +19,6 @@ class Main extends React.Component<any, any>{
     }
 
     componentDidMount() {
-        const { baseUrl, currentPage } = this.state;
-
         this.fetch();
     }
 
